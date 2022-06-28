@@ -1,0 +1,44 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: auto; 
+    
+
+}
+.container{
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    left: 10vw;
+    color: white;
+}
+.second{
+    font-size: 3.4rem;
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    color: rgb(77, 74, 74);
+    margin: 0;
+}
+.butn{
+    margin-top: 30px;
+    border-radius: 0px;
+    padding: 10px;
+    width: 200px;
+    background: none;
+    transition: all;
+    transition-duration: 1s;
+    color: white;
+    border-radius: 10px;
+
+    font-weight: bold;
+
+}
+.butn:hover{
+    background-color: azure;
+    color: black;
+    border: 2px solid blueviolet;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
